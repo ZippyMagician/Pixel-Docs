@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>AnimationCore - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Pixel.AnimatedSprite.html">AnimatedSprite</a><ul class='methods'><li data-type='method'><a href="Pixel.AnimatedSprite.html#copy">copy</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#reset">reset</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#settings">settings</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#spin">spin</a></li></ul></li><li><a href="Pixel.Circle.html">Circle</a><ul class='methods'><li data-type='method'><a href="Pixel.Circle.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Circle.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Circle.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Circle.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Circle.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Circle.html#spin">spin</a></li></ul></li><li><a href="Pixel.Container.html">Container</a><ul class='methods'><li data-type='method'><a href="Pixel.Container.html#add">add</a></li><li data-type='method'><a href="Pixel.Container.html#addChild">addChild</a></li><li data-type='method'><a href="Pixel.Container.html#addHitRegion">addHitRegion</a></li><li data-type='method'><a href="Pixel.Container.html#background">background</a></li><li data-type='method'><a href="Pixel.Container.html#cloneChildren">cloneChildren</a></li><li data-type='method'><a href="Pixel.Container.html#on">on</a></li><li data-type='method'><a href="Pixel.Container.html#render">render</a></li></ul></li><li><a href="Pixel.EXPORTS.AnimationCore.html">AnimationCore</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#add">add</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#create">create</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#multiAdd">multiAdd</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#play">play</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#stop">stop</a></li></ul></li><li><a href="Pixel.EXPORTS.FillStyle.html">FillStyle</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.FillStyle.html#clone">clone</a></li><li data-type='method'><a href="Pixel.EXPORTS.FillStyle.html#fill">fill</a></li><li data-type='method'><a href="Pixel.EXPORTS.FillStyle.html#reset">reset</a></li></ul></li><li><a href="Pixel.EXPORTS.ImageGraphics.html">ImageGraphics</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.ImageGraphics.html#cropRect">cropRect</a></li><li data-type='method'><a href="Pixel.EXPORTS.ImageGraphics.html#loadImage">loadImage</a></li></ul></li><li><a href="Pixel.EXPORTS.SpriteBase.html">SpriteBase</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#copy">copy</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#reset">reset</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#settings">settings</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#spin">spin</a></li></ul></li><li><a href="Pixel.Graphics.html">Graphics</a><ul class='methods'><li data-type='method'><a href="Pixel.Graphics.html#arc">arc</a></li><li data-type='method'><a href="Pixel.Graphics.html#arcTo">arcTo</a></li><li data-type='method'><a href="Pixel.Graphics.html#clearCircle">clearCircle</a></li><li data-type='method'><a href="Pixel.Graphics.html#clearRect">clearRect</a></li><li data-type='method'><a href="Pixel.Graphics.html#cropRect">cropRect</a></li><li data-type='method'><a href="Pixel.Graphics.html#drawRect">drawRect</a></li><li data-type='method'><a href="Pixel.Graphics.html#end">end</a></li><li data-type='method'><a href="Pixel.Graphics.html#fill">fill</a></li><li data-type='method'><a href="Pixel.Graphics.html#loadImage">loadImage</a></li><li data-type='method'><a href="Pixel.Graphics.html#move">move</a></li><li data-type='method'><a href="Pixel.Graphics.html#shadow">shadow</a></li><li data-type='method'><a href="Pixel.Graphics.html#transparency">transparency</a></li></ul></li><li><a href="Pixel.Map.html">Map</a><ul class='methods'><li data-type='method'><a href="Pixel.Map.html#applyTileset">applyTileset</a></li><li data-type='method'><a href="Pixel.Map.html#checkCollisions">checkCollisions</a></li><li data-type='method'><a href="Pixel.Map.html#collideByExclusion">collideByExclusion</a></li><li data-type='method'><a href="Pixel.Map.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Map.html#fill">fill</a></li><li data-type='method'><a href="Pixel.Map.html#generateBlankMap">generateBlankMap</a></li><li data-type='method'><a href="Pixel.Map.html#placeTile">placeTile</a></li><li data-type='method'><a href="Pixel.Map.html#placeTiles">placeTiles</a></li><li data-type='method'><a href="Pixel.Map.html#render">render</a></li><li data-type='method'><a href="Pixel.Map.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Map.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Map.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Map.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Map.html#spin">spin</a></li><li data-type='method'><a href="Pixel.Map.html#tileToWorldX">tileToWorldX</a></li><li data-type='method'><a href="Pixel.Map.html#tileToWorldY">tileToWorldY</a></li><li data-type='method'><a href="Pixel.Map.html#weightedRandomize">weightedRandomize</a></li></ul></li><li><a href="Pixel.Point.html">Point</a><ul class='methods'><li data-type='method'><a href="Pixel.Point.html#clone">clone</a></li></ul></li><li><a href="Pixel.Rectangle.html">Rectangle</a><ul class='methods'><li data-type='method'><a href="Pixel.Rectangle.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Rectangle.html#render">render</a></li><li data-type='method'><a href="Pixel.Rectangle.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Rectangle.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Rectangle.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Rectangle.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Rectangle.html#spin">spin</a></li></ul></li><li><a href="Pixel.Sound.html">Sound</a></li><li><a href="Pixel.Sprite.html">Sprite</a><ul class='methods'><li data-type='method'><a href="Pixel.Sprite.html#checkCollisions">checkCollisions</a></li><li data-type='method'><a href="Pixel.Sprite.html#clone">clone</a></li><li data-type='method'><a href="Pixel.Sprite.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Sprite.html#render">render</a></li><li data-type='method'><a href="Pixel.Sprite.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Sprite.html#rotation_render">rotation_render</a></li><li data-type='method'><a href="Pixel.Sprite.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Sprite.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Sprite.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Sprite.html#spin">spin</a></li></ul></li><li><a href="Pixel.SpriteSheet.html">SpriteSheet</a><ul class='methods'><li data-type='method'><a href="Pixel.SpriteSheet.html#copy">copy</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#generateSheet">generateSheet</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#reset">reset</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#settings">settings</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#spin">spin</a></li></ul></li><li><a href="Pixel.Stage.html">Stage</a><ul class='methods'><li data-type='method'><a href="Pixel.Stage.html#addChild">addChild</a></li><li data-type='method'><a href="Pixel.Stage.html#render">render</a></li></ul></li><li><a href="Pixel.Text.html">Text</a><ul class='methods'><li data-type='method'><a href="Pixel.Text.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Text.html#render">render</a></li><li data-type='method'><a href="Pixel.Text.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Text.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Text.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Text.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Text.html#spin">spin</a></li></ul></li><li><a href="Pixel.Texture.html">Texture</a></li></ul><h3>Namespaces</h3><ul><li><a href="Pixel.html">Pixel</a></li><li><a href="Pixel.Container.keyboard.html">keyboard</a><ul class='methods'><li data-type='method'><a href="Pixel.Container.keyboard.html#on">on</a></li></ul></li><li><a href="Pixel.EXPORTS.html">EXPORTS</a></li><li><a href="Pixel.Stage.physics.html">physics</a></li><li><a href="Pixel.Stage.physics.collider.html">collider</a><ul class='methods'><li data-type='method'><a href="Pixel.Stage.physics.collider.html#add">add</a></li></ul></li><li><a href="Pixel.Stage.resources.html">resources</a><ul class='methods'><li data-type='method'><a href="Pixel.Stage.resources.html#add">add</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">AnimationCore</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+            <span class="ancestors"><a href="Pixel.html">Pixel</a><a href="Pixel.EXPORTS.html">.EXPORTS</a>~</span>
+        
+        AnimationCore
+        </h2>
+        
+            <div class="class-description">Animation core class</div>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+    
+    <h2>Constructor</h2>
+    
+
+    <h4 class="name" id="AnimationCore"><span class="type-signature"></span>new AnimationCore<span class="signature">(parent)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line18">line 18</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Create new Animation Core element
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>parent</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Pixel.AnimatedSprite.html">Pixel.AnimatedSprite</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Parent of Animation Core</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+        <h3 class="subsection-title">Members</h3>
+
+        
+            
+<h4 class="name" id="cache"><span class="type-signature"></span>cache<span class="type-signature"> :<a href="Pixel.Sprite.html">Pixel.Sprite</a></span></h4>
+
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line39">line 39</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Stores spritesheet
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><a href="Pixel.Sprite.html">Pixel.Sprite</a></span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="current"><span class="type-signature"></span>current<span class="type-signature"> :boolean|Array.&lt;<a href="Pixel.Sprite.html">Pixel.Sprite</a>></span></h4>
+
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line57">line 57</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Current track being played
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">boolean</span>
+|
+
+<span class="param-type">Array.&lt;<a href="Pixel.Sprite.html">Pixel.Sprite</a>></span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="frame"><span class="type-signature"></span>frame<span class="type-signature"> :number</span></h4>
+
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line30">line 30</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Current frame this core is on
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="track"><span class="type-signature"></span>track<span class="type-signature"> :string</span></h4>
+
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line66">line 66</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Current name of the track being played
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="tracks"><span class="type-signature"></span>tracks<span class="type-signature"> :object</span></h4>
+
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line48">line 48</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    All tracks created that can be played
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">object</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+
+        
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id="add"><span class="type-signature"></span>add<span class="signature">(name, prefix, delay<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line105">line 105</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Add track when cached spritesheet is defined through a json file
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">Name of track</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>prefix</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">Name every item in track begins with</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>delay</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>0</code>
+                
+                </td>
+            
+
+            <td class="description last">How many items to skip before they are added</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="create"><span class="type-signature"></span>create<span class="signature">(data)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line130">line 130</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Create a new track if there is no json file
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>data</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Data for the creation
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Name of track</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>positions</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;number></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Array of start and end id of animation</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="multiAdd"><span class="type-signature"></span>multiAdd<span class="signature">(groups)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line153">line 153</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Add multiple animation tracks at once (with json file)
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// Example of creating an animation, where sprite is Pixel.AnimatedSprite
+data = { name: 'name', filter: 'prefix', offset: 'delay' }
+sprite.animation.multiAdd([data]) // Adds just one, but you get the idea</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>groups</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;object></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Data of every group to be added</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="play"><span class="type-signature"></span>play<span class="signature">(name)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line92">line 92</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Plays an animation saved in the cache
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Name of track to be played</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="stop"><span class="type-signature"></span>stop<span class="signature">(num)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="packages_sprite_animation_base.js.html">packages/sprite/animation/base.js</a>, <a href="packages_sprite_animation_base.js.html#line76">line 76</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    Stops the current animation and plays 1 item in the cache on continous loop
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>num</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">ID of image being played continously</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Fri Dec 20 2019 19:06:24 GMT+0000 (Coordinated Universal Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
