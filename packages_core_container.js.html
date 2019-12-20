@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>packages/core/container.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Pixel.AnimatedSprite.html">AnimatedSprite</a><ul class='methods'><li data-type='method'><a href="Pixel.AnimatedSprite.html#copy">copy</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#reset">reset</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#settings">settings</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#spin">spin</a></li></ul></li><li><a href="Pixel.Circle.html">Circle</a><ul class='methods'><li data-type='method'><a href="Pixel.Circle.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Circle.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Circle.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Circle.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Circle.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Circle.html#spin">spin</a></li></ul></li><li><a href="Pixel.Container.html">Container</a><ul class='methods'><li data-type='method'><a href="Pixel.Container.html#add">add</a></li><li data-type='method'><a href="Pixel.Container.html#addChild">addChild</a></li><li data-type='method'><a href="Pixel.Container.html#addHitRegion">addHitRegion</a></li><li data-type='method'><a href="Pixel.Container.html#background">background</a></li><li data-type='method'><a href="Pixel.Container.html#cloneChildren">cloneChildren</a></li><li data-type='method'><a href="Pixel.Container.html#on">on</a></li><li data-type='method'><a href="Pixel.Container.html#render">render</a></li></ul></li><li><a href="Pixel.EXPORTS.AnimationCore.html">AnimationCore</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#add">add</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#create">create</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#multiAdd">multiAdd</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#play">play</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#stop">stop</a></li></ul></li><li><a href="Pixel.EXPORTS.FillStyle.html">FillStyle</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.FillStyle.html#clone">clone</a></li><li data-type='method'><a href="Pixel.EXPORTS.FillStyle.html#fill">fill</a></li><li data-type='method'><a href="Pixel.EXPORTS.FillStyle.html#reset">reset</a></li></ul></li><li><a href="Pixel.EXPORTS.ImageGraphics.html">ImageGraphics</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.ImageGraphics.html#cropRect">cropRect</a></li><li data-type='method'><a href="Pixel.EXPORTS.ImageGraphics.html#loadImage">loadImage</a></li></ul></li><li><a href="Pixel.EXPORTS.SpriteBase.html">SpriteBase</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#copy">copy</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#reset">reset</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#settings">settings</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#spin">spin</a></li></ul></li><li><a href="Pixel.Graphics.html">Graphics</a><ul class='methods'><li data-type='method'><a href="Pixel.Graphics.html#arc">arc</a></li><li data-type='method'><a href="Pixel.Graphics.html#arcTo">arcTo</a></li><li data-type='method'><a href="Pixel.Graphics.html#clearCircle">clearCircle</a></li><li data-type='method'><a href="Pixel.Graphics.html#clearRect">clearRect</a></li><li data-type='method'><a href="Pixel.Graphics.html#cropRect">cropRect</a></li><li data-type='method'><a href="Pixel.Graphics.html#drawRect">drawRect</a></li><li data-type='method'><a href="Pixel.Graphics.html#end">end</a></li><li data-type='method'><a href="Pixel.Graphics.html#fill">fill</a></li><li data-type='method'><a href="Pixel.Graphics.html#loadImage">loadImage</a></li><li data-type='method'><a href="Pixel.Graphics.html#move">move</a></li><li data-type='method'><a href="Pixel.Graphics.html#shadow">shadow</a></li><li data-type='method'><a href="Pixel.Graphics.html#transparency">transparency</a></li></ul></li><li><a href="Pixel.Map.html">Map</a><ul class='methods'><li data-type='method'><a href="Pixel.Map.html#applyTileset">applyTileset</a></li><li data-type='method'><a href="Pixel.Map.html#checkCollisions">checkCollisions</a></li><li data-type='method'><a href="Pixel.Map.html#collideByExclusion">collideByExclusion</a></li><li data-type='method'><a href="Pixel.Map.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Map.html#fill">fill</a></li><li data-type='method'><a href="Pixel.Map.html#generateBlankMap">generateBlankMap</a></li><li data-type='method'><a href="Pixel.Map.html#placeTile">placeTile</a></li><li data-type='method'><a href="Pixel.Map.html#placeTiles">placeTiles</a></li><li data-type='method'><a href="Pixel.Map.html#render">render</a></li><li data-type='method'><a href="Pixel.Map.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Map.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Map.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Map.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Map.html#spin">spin</a></li><li data-type='method'><a href="Pixel.Map.html#tileToWorldX">tileToWorldX</a></li><li data-type='method'><a href="Pixel.Map.html#tileToWorldY">tileToWorldY</a></li><li data-type='method'><a href="Pixel.Map.html#weightedRandomize">weightedRandomize</a></li></ul></li><li><a href="Pixel.Point.html">Point</a><ul class='methods'><li data-type='method'><a href="Pixel.Point.html#clone">clone</a></li></ul></li><li><a href="Pixel.Rectangle.html">Rectangle</a><ul class='methods'><li data-type='method'><a href="Pixel.Rectangle.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Rectangle.html#render">render</a></li><li data-type='method'><a href="Pixel.Rectangle.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Rectangle.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Rectangle.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Rectangle.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Rectangle.html#spin">spin</a></li></ul></li><li><a href="Pixel.Sound.html">Sound</a></li><li><a href="Pixel.Sprite.html">Sprite</a><ul class='methods'><li data-type='method'><a href="Pixel.Sprite.html#checkCollisions">checkCollisions</a></li><li data-type='method'><a href="Pixel.Sprite.html#clone">clone</a></li><li data-type='method'><a href="Pixel.Sprite.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Sprite.html#render">render</a></li><li data-type='method'><a href="Pixel.Sprite.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Sprite.html#rotation_render">rotation_render</a></li><li data-type='method'><a href="Pixel.Sprite.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Sprite.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Sprite.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Sprite.html#spin">spin</a></li></ul></li><li><a href="Pixel.SpriteSheet.html">SpriteSheet</a><ul class='methods'><li data-type='method'><a href="Pixel.SpriteSheet.html#copy">copy</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#generateSheet">generateSheet</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#reset">reset</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#settings">settings</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#spin">spin</a></li></ul></li><li><a href="Pixel.Stage.html">Stage</a><ul class='methods'><li data-type='method'><a href="Pixel.Stage.html#addChild">addChild</a></li><li data-type='method'><a href="Pixel.Stage.html#render">render</a></li></ul></li><li><a href="Pixel.Text.html">Text</a><ul class='methods'><li data-type='method'><a href="Pixel.Text.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Text.html#render">render</a></li><li data-type='method'><a href="Pixel.Text.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Text.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Text.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Text.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Text.html#spin">spin</a></li></ul></li><li><a href="Pixel.Texture.html">Texture</a></li></ul><h3>Namespaces</h3><ul><li><a href="Pixel.html">Pixel</a></li><li><a href="Pixel.Container.keyboard.html">keyboard</a><ul class='methods'><li data-type='method'><a href="Pixel.Container.keyboard.html#on">on</a></li></ul></li><li><a href="Pixel.EXPORTS.html">EXPORTS</a></li><li><a href="Pixel.Stage.physics.html">physics</a></li><li><a href="Pixel.Stage.physics.collider.html">collider</a><ul class='methods'><li data-type='method'><a href="Pixel.Stage.physics.collider.html#add">add</a></li></ul></li><li><a href="Pixel.Stage.resources.html">resources</a><ul class='methods'><li data-type='method'><a href="Pixel.Stage.resources.html#add">add</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">packages/core/container.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import {Point} from "../shape";
+
+/**
+  * Container class
+  *
+  * @class
+  * @memberof Pixel
+*/
+
+export default class Container {
+
+  /**
+    * Creates a container element
+    *
+    * @constructor
+    * @param {CanvasRenderingContext2D} ctx - The screen every object is rendered to
+  */
+
+  constructor(ctx) {
+    /**
+      * Contains all sprites
+      *
+      * @name Pixel.Container#stage
+      * @type {Pixel.Sprite[]}
+    */
+
+    this.sprites = [];
+
+    /**
+     * Stores the background color
+     * 
+     * @name Pixel.Container#_backColor
+     * @type {string}
+     * @private
+    */
+
+    this._backColor = "#FFFFFF";
+
+    /**
+     * Stores the canvas 2d context
+     * 
+     * @name Pixel.Container#ctx
+     * @type {CanvasRenderingContext2D}
+    */
+
+    this.ctx = ctx;
+
+    /**
+      * I forgot what this is for but am to worried to get rid of it
+      *
+      * @name Pixel.Container#container
+      * @type {boolean}
+    */
+
+    this.container = true;
+   
+    /**
+      * Stores all clickable regions on the screen
+      *
+      * @name Pixel.Container#regions
+      * @type {object}
+    */
+   
+    this.regions = {};
+   
+    /**
+      * All keyboard related functions exist here
+      *
+      * @namespace Pixel.Container.keyboard
+    */
+   
+    this.keyboard = {};
+
+    /**
+      * Gets the current mouse position
+      * 
+      * @private
+      * @function Pixel.Container#mousePos
+      * @param {DocumentEvent} event - The Document Event element
+      * @param {HTMLCanvasElement} canvas - The canvas it gets the mouse position on
+      * @return {object} Returns the x and y in an object
+    */
+
+    this.mousePos = (canvas, event) => {
+      var rect = canvas.getBoundingClientRect(),
+        scaleX = canvas.width / rect.width,
+        scaleY = canvas.height / rect.height;
+
+      return {
+        x: (event.clientX - rect.left) * scaleX,
+        y: (event.clientY - rect.top) * scaleY
+      };
+    };
+
+    /**
+      * Changes the background color
+      * 
+      * @function Pixel.Container#background
+      * @param {string} color - The color, in hexidecimal or rgb
+    */
+
+    this.background = (color) => {
+      this._backColor = color;
+    };
+
+    /**
+      * Auto renders sprite
+      * 
+      * @function Pixel.Container#add
+      * @param {Pixel.Sprite|Pixel.SpriteSheet|Pixel.AnimatedSprite|Pixel.Map|Pixel.Rectangle|Pixel.Circle|Pixel.Text} sprite - Sprite to be rendered
+    */
+
+    this.add = (sprite) => {
+      return sprite.render(this.ctx);
+    };
+
+    /**
+      * Clears the screen
+      * 
+      * @private
+      * @function Pixel.Container#clear
+    */
+
+    this.clear = () => {
+      this.ctx.clearRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
+    };
+
+    /**
+      * Define keyboard event triggers
+      * 
+      * @function Pixel.Container.keyboard#on
+      * @param {string} name - Name of event
+      * @param {function} call - Function called whenever event occurs
+    */
+
+    this.keyboard.on = (name, call) => {
+      if (name === "keydown" || name === "keyup") {
+        this["on" + name] = call;
+      }
+      else {
+        document["on" + name] = call;
+      }
+    };
+
+    /**
+      * Adds clickable region to the stage
+      * 
+      * @function Pixel.Container#addHitRegion
+      * @param {object} opts - Options for hit region
+      * @param {string} opts.name - Name of hit region
+      * @param {Pixel.Point} opts.start - Start point of hit region
+      * @param {Pixel.Point} opts.end - End point of hit region
+      * @param {function} call - Function called when region clicked
+    */
+
+    this.addHitRegion = function(opts, call) {
+      this.regions[opts.name] = new Object(Object.assign({call: call}, opts));
+    };
+  }
+
+  /**
+    * Adds child to container
+    *
+    * @method Pixel.Container#addChild
+    * @param {Pixel.Sprite} sprite - Sprite to add
+  */
+
+  addChild(sprite) {
+    this.sprites.push(sprite);
+  }
+
+  /**
+      * Event handler
+      * 
+      * @function Pixel.Container#on
+      * @param {string} name - Name of event
+      * @param {function} call - Function called whenever event occurs
+    */
+
+   on(name, call) {
+    if (name === "mousemove" || name === "mousedown" || name === "click") {
+      this["on" + name] = call;
+    } else {
+      this.view.addEventListener(name, call);
+    }
+  };
+
+  /**
+    * Moves all children into a Pixel.Stage element
+    *
+    * @method Pixel.Container#cloneChildren
+    * @param {Pixel.Stage} base - Stage contents are moved to
+  */
+
+  cloneChildren(base) {
+    var con = this.contents;
+    for (var i in con) {
+      base.addChild(con[i]);
+    }
+  }
+
+  /**
+    * Renders all elements in container
+    *
+    * @method Pixel.Container#render
+  */
+
+  render() {
+    var con = this.sprites;
+    for (var i in con) {
+      con[i].render(this.ctx);
+    }
+  }
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Fri Dec 20 2019 19:05:39 GMT+0000 (Coordinated Universal Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
