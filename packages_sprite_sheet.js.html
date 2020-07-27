@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>packages/sprite/sheet.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Pixel.AnimatedSprite.html">AnimatedSprite</a><ul class='methods'><li data-type='method'><a href="Pixel.AnimatedSprite.html#copy">copy</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#reset">reset</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#settings">settings</a></li><li data-type='method'><a href="Pixel.AnimatedSprite.html#spin">spin</a></li></ul></li><li><a href="Pixel.Circle.html">Circle</a><ul class='methods'><li data-type='method'><a href="Pixel.Circle.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Circle.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Circle.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Circle.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Circle.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Circle.html#spin">spin</a></li></ul></li><li><a href="Pixel.Container.html">Container</a><ul class='methods'><li data-type='method'><a href="Pixel.Container.html#add">add</a></li><li data-type='method'><a href="Pixel.Container.html#addChild">addChild</a></li><li data-type='method'><a href="Pixel.Container.html#addHitRegion">addHitRegion</a></li><li data-type='method'><a href="Pixel.Container.html#background">background</a></li><li data-type='method'><a href="Pixel.Container.html#cloneChildren">cloneChildren</a></li><li data-type='method'><a href="Pixel.Container.html#on">on</a></li><li data-type='method'><a href="Pixel.Container.html#on">on</a></li><li data-type='method'><a href="Pixel.Container.html#removeChild">removeChild</a></li><li data-type='method'><a href="Pixel.Container.html#render">render</a></li></ul></li><li><a href="Pixel.EXPORTS.AnimationCore.html">AnimationCore</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#add">add</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#create">create</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#multiAdd">multiAdd</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#play">play</a></li><li data-type='method'><a href="Pixel.EXPORTS.AnimationCore.html#stop">stop</a></li></ul></li><li><a href="Pixel.EXPORTS.FillStyle.html">FillStyle</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.FillStyle.html#clone">clone</a></li><li data-type='method'><a href="Pixel.EXPORTS.FillStyle.html#fill">fill</a></li><li data-type='method'><a href="Pixel.EXPORTS.FillStyle.html#reset">reset</a></li></ul></li><li><a href="Pixel.EXPORTS.ImageGraphics.html">ImageGraphics</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.ImageGraphics.html#cropRect">cropRect</a></li><li data-type='method'><a href="Pixel.EXPORTS.ImageGraphics.html#loadImage">loadImage</a></li></ul></li><li><a href="Pixel.EXPORTS.SpriteBase.html">SpriteBase</a><ul class='methods'><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#copy">copy</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#reset">reset</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#settings">settings</a></li><li data-type='method'><a href="Pixel.EXPORTS.SpriteBase.html#spin">spin</a></li></ul></li><li><a href="Pixel.Graphics.html">Graphics</a><ul class='methods'><li data-type='method'><a href="Pixel.Graphics.html#arc">arc</a></li><li data-type='method'><a href="Pixel.Graphics.html#arcTo">arcTo</a></li><li data-type='method'><a href="Pixel.Graphics.html#clearCircle">clearCircle</a></li><li data-type='method'><a href="Pixel.Graphics.html#clearRect">clearRect</a></li><li data-type='method'><a href="Pixel.Graphics.html#cropRect">cropRect</a></li><li data-type='method'><a href="Pixel.Graphics.html#drawRect">drawRect</a></li><li data-type='method'><a href="Pixel.Graphics.html#end">end</a></li><li data-type='method'><a href="Pixel.Graphics.html#fill">fill</a></li><li data-type='method'><a href="Pixel.Graphics.html#loadImage">loadImage</a></li><li data-type='method'><a href="Pixel.Graphics.html#move">move</a></li><li data-type='method'><a href="Pixel.Graphics.html#shadow">shadow</a></li><li data-type='method'><a href="Pixel.Graphics.html#transparency">transparency</a></li></ul></li><li><a href="Pixel.Map.html">Map</a><ul class='methods'><li data-type='method'><a href="Pixel.Map.html#applyTileset">applyTileset</a></li><li data-type='method'><a href="Pixel.Map.html#checkCollisions">checkCollisions</a></li><li data-type='method'><a href="Pixel.Map.html#collideByExclusion">collideByExclusion</a></li><li data-type='method'><a href="Pixel.Map.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Map.html#fill">fill</a></li><li data-type='method'><a href="Pixel.Map.html#generateBlankMap">generateBlankMap</a></li><li data-type='method'><a href="Pixel.Map.html#placeTile">placeTile</a></li><li data-type='method'><a href="Pixel.Map.html#placeTiles">placeTiles</a></li><li data-type='method'><a href="Pixel.Map.html#render">render</a></li><li data-type='method'><a href="Pixel.Map.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Map.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Map.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Map.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Map.html#spin">spin</a></li><li data-type='method'><a href="Pixel.Map.html#tileToWorldX">tileToWorldX</a></li><li data-type='method'><a href="Pixel.Map.html#tileToWorldY">tileToWorldY</a></li><li data-type='method'><a href="Pixel.Map.html#weightedRandomize">weightedRandomize</a></li></ul></li><li><a href="Pixel.Physics.html">Physics</a><ul class='methods'><li data-type='method'><a href="Pixel.Physics.html#add">add</a></li></ul></li><li><a href="Pixel.Point.html">Point</a><ul class='methods'><li data-type='method'><a href="Pixel.Point.html#clone">clone</a></li></ul></li><li><a href="Pixel.Rectangle.html">Rectangle</a><ul class='methods'><li data-type='method'><a href="Pixel.Rectangle.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Rectangle.html#render">render</a></li><li data-type='method'><a href="Pixel.Rectangle.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Rectangle.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Rectangle.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Rectangle.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Rectangle.html#spin">spin</a></li></ul></li><li><a href="Pixel.Sound.html">Sound</a></li><li><a href="Pixel.Sprite.html">Sprite</a><ul class='methods'><li data-type='method'><a href="Pixel.Sprite.html#checkCollisions">checkCollisions</a></li><li data-type='method'><a href="Pixel.Sprite.html#clone">clone</a></li><li data-type='method'><a href="Pixel.Sprite.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Sprite.html#render">render</a></li><li data-type='method'><a href="Pixel.Sprite.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Sprite.html#rotation_render">rotation_render</a></li><li data-type='method'><a href="Pixel.Sprite.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Sprite.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Sprite.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Sprite.html#spin">spin</a></li></ul></li><li><a href="Pixel.SpriteSheet.html">SpriteSheet</a><ul class='methods'><li data-type='method'><a href="Pixel.SpriteSheet.html#copy">copy</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#generateSheet">generateSheet</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#reset">reset</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#settings">settings</a></li><li data-type='method'><a href="Pixel.SpriteSheet.html#spin">spin</a></li></ul></li><li><a href="Pixel.Stage.html">Stage</a><ul class='methods'><li data-type='method'><a href="Pixel.Stage.html#addChild">addChild</a></li><li data-type='method'><a href="Pixel.Stage.html#render">render</a></li></ul></li><li><a href="Pixel.Text.html">Text</a><ul class='methods'><li data-type='method'><a href="Pixel.Text.html#copy">copy</a></li><li data-type='method'><a href="Pixel.Text.html#render">render</a></li><li data-type='method'><a href="Pixel.Text.html#reset">reset</a></li><li data-type='method'><a href="Pixel.Text.html#setAnchor">setAnchor</a></li><li data-type='method'><a href="Pixel.Text.html#setSize">setSize</a></li><li data-type='method'><a href="Pixel.Text.html#settings">settings</a></li><li data-type='method'><a href="Pixel.Text.html#spin">spin</a></li></ul></li><li><a href="Pixel.Texture.html">Texture</a></li></ul><h3>Namespaces</h3><ul><li><a href="Pixel.html">Pixel</a></li><li><a href="Pixel.Container.keyboard.html">keyboard</a><ul class='methods'><li data-type='method'><a href="Pixel.Container.keyboard.html#on">on</a></li></ul></li><li><a href="Pixel.EXPORTS.html">EXPORTS</a></li><li><a href="Pixel.Stage.resources.html">resources</a><ul class='methods'><li data-type='method'><a href="Pixel.Stage.resources.html#add">add</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">packages/sprite/sheet.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import SpriteBase from "./base";
+
+/**
+ * Spritesheet class.
+ *
+ * @class
+ * @memberof Pixel
+ * @augments Pixel.EXPORTS.SpriteBase
+ */
+
+export default class SpriteSheet extends SpriteBase {
+  
+    /**
+     * Create new Sprite sheet class.
+     * 
+     * @class
+     * @param {Pixel.Texture} texture - The texture used for the sprite sheet.
+     * @param {object} data - Data passed in order to split spritesheet.
+     * @param {number} data.width - Width of the spritesheet (in tiles).
+     * @param {number} data.height - Height of the spritesheet (in tiles).
+     * @param {number} data.margin - Amount of padding around each sprite.
+     * @param {number} data.spacing - Amount of space between each sprite.
+     * @param {object} data.image - Stores data for each image being split.
+     * @param {number} data.image.width - Width of single tile.
+     * @param {number} data.image.height - Height of single tile.
+     */
+  
+    constructor(texture, data) {
+        super();
+    
+        /**
+         * Stores the texture for later use.
+         * 
+         * @name Pixel.SpriteSheet#texture
+         * @type {Pixel.Texture}
+         * @private
+         */
+    
+        this.texture = texture;
+    
+        /**
+         * Stores every seperate frame of the spritesheet.
+         *
+         * @name Pixel.SpriteSheet#sheet
+         * @type {HTMLCanvasElement[]}
+         */
+
+        this.sheet = [];
+    
+    
+    
+        this._parse(data);
+    }
+  
+    /**
+     * Crops an image into a smaller version.
+     *
+     * @function Pixel.SpriteSheet#_slice
+     * @private
+     * @param {number} x - X position of crop.
+     * @param {number} y - Y position of crop.
+     * @param {number} w - Width of crop.
+     * @param {number} h - Height of crop.
+     * @param {image} [image=false] - If you want to pass a texture other than the main texture, use this.
+     * @returns {HTMLCanvasElement}
+     */
+
+    _slice(x, y, w, h, image=false) {
+        let img = image || this.texture;
+        let canvas = document.createElement("canvas");
+        let ctx = canvas.getContext("2d");
+
+        ctx.canvas.width = img.width ? img.width : img.image.width;
+        ctx.canvas.height = img.height ? img.height : img.image.height;
+        ctx.drawImage(img.width ? img : img.image, 0, 0);
+
+        let data = ctx.getImageData(x, y, w, h);
+        canvas.width = w;
+        canvas.height = h;
+        ctx.putImageData(data, 0, 0);
+
+        return canvas;
+    }
+  
+    /**
+     * Trim image centered around image.
+     *
+     * @function Pixel.SpriteSheet#trim
+     * @private
+     * @deprecated
+     * @param {object} data - Data object passed.
+     */
+
+    trim(data) {
+        let w = data.width, h = data.height;
+        let prev_w = this.sheet[0].width, prev_h = this.sheet[0].height;
+
+        for (let i in this.sheet) {
+            let image = this.sheet[i];
+            let diffW = prev_w - w, diffH = prev_h - h;
+            this.sheet[i] = this._slice(diffW / 2, diffH / 2, w - diffW / 2, h - diffH / 2, image);
+        }
+    }
+  
+    /**
+     * Parses texture file into seperate files based on data.
+     *
+     * @function Pixel.SpriteSheet#_parse
+     * @private
+     * @param {object} data - Data passed.
+     */
+
+    _parse(data) {
+        let w = this.texture.image.width;
+        let h = this.texture.image.height;
+        let rows = Math.floor(w / data.width);
+        let cols = Math.floor(h / data.height);
+        let margin = data.margin || 0;
+        let spacing = data.spacing || 0;
+        let curRow;
+        let curCol;
+
+        for (curCol = 1; curCol &lt;= cols; curCol++) {
+            for (curRow = 1; curRow &lt;= rows; curRow++) {
+                let img = this._slice(curRow * (data.width + spacing) - data.width,
+                    curCol * (data.height + spacing + margin) - data.height,
+                    data.width - margin - spacing,
+                    data.height - margin - spacing);
+                this.sheet.push(img);
+            }
+        }
+    }
+  
+    /**
+     * Returns the sheet for use in other sprites.
+     *
+     * @function Pixel.SpriteSheet#generateSheet
+     * @returns {Pixel.SpriteSheet#sheet}
+     */
+
+    generateSheet() {
+        return this.sheet;
+    }
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.5</a> on Mon Jul 27 2020 15:10:36 GMT+0000 (Coordinated Universal Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
